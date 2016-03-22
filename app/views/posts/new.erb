@@ -1,0 +1,16 @@
+<h2>New Post</h2>
+
+<%= erb :"shared/errors", locals: { object: @post } %>
+
+<form action= "/posts" method= "POST">
+    <div class= "form-group">
+        <label for="photo_url">Photo_url</label>
+        <input type="text" id="photo_url" name="photo_url">
+    </div>
+    <div class="form-group">
+        <button class="button" type="submit">Post</button>
+    </div>
+</form>
+
+
+ 

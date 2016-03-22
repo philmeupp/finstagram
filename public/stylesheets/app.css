@@ -1,0 +1,100 @@
+header {
+    background-color: #244751;
+    color: #e8fdff;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color:white;
+    padding: 16px;
+}
+
+.post { 
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+
+/*header:hover {*/
+/*     background-color: red;*/
+/*     border: 5px dotted red;    */
+/*}*/
+
+div h2 {
+    font-family: "Poiret One", cursive;
+    background-color: lightgrey;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.photo img {
+    border-radius: 20px;
+}
+
+.login-info {
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+
+.login-info :hover{
+    background-color: #0D242B;
+    
+}
+
+.nav_login {
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: #e8fdff;
+}
+
+.nav_signup {
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    color: #e8fdff;
+    }
+
+
+
+/*.photo img { */
+/*    max-width: 100%;*/
+/*    transition: all 0.5s; */
+/*}*/
+
+
+/*.photo img:hover {*/
+/*    transform: scale(1.5);*/
+/*}*/
+
+
+/*
+.photo:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.photo img:hover {
+    width: 500px;
+    height: auto;
+}
+
+
+/*  positing: relative;
+    left: 100px;
+    left: 70%    
+    position: absoulte; 
+    
+.user-info img:hover {
+    width: 50px;
+    height: 50px;
+}
+*/
